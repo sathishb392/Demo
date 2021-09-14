@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "7Z230HlHYlff9YgNSuCQSA",
+    "name" : "ImportProcessWithPublish",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "XPy07duD2L5SeE1-gt-11031-2021-09-14T08:28:31.804Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

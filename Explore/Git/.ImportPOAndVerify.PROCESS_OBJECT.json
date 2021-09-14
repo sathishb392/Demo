@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "dr3rOTS5WIKfgCZC7mgmM5",
+    "name" : "ImportPOAndVerify",
+    "type" : "PROCESS_OBJECT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lCYAOTMneBjrabc-gt-11039-2021-09-14T08:28:31.86Z::po.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "fWP1TXyY0kheY7rW8Ltd8S",
+    "name" : "ImportSvcConnWithPublish",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "SKV7Pt8nTaaaaa-gt-11023-2021-09-14T08:28:31.718Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
