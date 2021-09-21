@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "0TSC0I9mHZcg4jArhiEckZ",
+    "name" : "Process23",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "WXpqVVVVVVVVVVV-gt-77806-2021-09-21T07:16:59.786Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
