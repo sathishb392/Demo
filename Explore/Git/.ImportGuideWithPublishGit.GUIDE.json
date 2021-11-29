@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "59itTF3yGeljco3LKsF1CA",
-    "name" : "ImportProcessWithPublishGit",
-    "type" : "PROCESS",
+    "id" : "31mNbiW0SEEgTdFSqslOMt",
+    "name" : "ImportGuideWithPublishGit",
+    "type" : "GUIDE",
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "aaa-gt-27283-2021-11-29T16:55:17.005Z::pd.xml"
+        "repoHandle" : "eHls2z8Uuopz4Kh-gt-27291-2021-11-29T16:55:17.073Z::gt.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
