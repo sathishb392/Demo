@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "9KZ8oTtCcaYbEcngi5eBCJ",
+    "name" : "ImportProcessWithPublishGit",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ISUXL86zqzm5Y6t-gt-56348-2021-11-30T15:28:42.563Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

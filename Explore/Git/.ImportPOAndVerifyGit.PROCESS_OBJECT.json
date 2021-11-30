@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "k86q804TnOpiKP3BgFPrwy",
+    "name" : "ImportPOAndVerifyGit",
+    "type" : "PROCESS_OBJECT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "FhBJQWSwxF1T4W6-gt-56340-2021-11-30T15:28:42.501Z::po.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "This is used by automation",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
