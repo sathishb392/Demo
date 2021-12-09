@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "0BeDeUdcdzWerQE8Dlr0u9",
+    "name" : "zImportConnWithPublishGit",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "YtjCtbdsreK8ZAZ-gt-81245-2021-12-09T04:20:09.808Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "a",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "7UO6Lltw2UogqTFbxrANwR",
+    "name" : "ImportSvcConnWithPublishGit",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7SOMzeHbcjqbdpI-gt-149405-2021-12-09T04:20:08.947Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "this is Service Connector",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Git"
+  } ]
+}
