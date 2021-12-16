@@ -12,7 +12,8 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>yup1_mrel</types1:CreatedBy>
       <types1:CreationDate>2021-12-16T05:12:35Z</types1:CreationDate>
-      <types1:ModifiedBy/>
+      <types1:ModifiedBy>yup1_mrel</types1:ModifiedBy>
+      <types1:ModificationDate>2021-12-16T05:13:42Z</types1:ModificationDate>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -76,5 +77,5 @@
       <types1:GUID>5nyXOc6dRfCj0SJrZS6YUi</types1:GUID>
       <types1:DisplayName>ImportSvcConnWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-12-16T05:13:11.274Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-12-16T05:24:29.674Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
