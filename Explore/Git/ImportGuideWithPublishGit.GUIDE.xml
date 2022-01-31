@@ -12,8 +12,12 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>vdmrelpod1</types1:CreatedBy>
       <types1:CreationDate>2022-01-31T11:38:52Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:ModifiedBy>vdmrelpod1</types1:ModifiedBy>
+      <types1:ModificationDate>2022-01-31T11:39:39Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>vdmrelpod1</types1:PublishedBy>
+      <types1:PublicationDate>2022-01-31T11:39:42Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/sf.ImportGuideWithPublishGit/ImportGuideWithPublishGit.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <avosScreenflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -72,5 +76,5 @@
       <types1:GUID>bfUwR0izZYAhhpiOATr7Ev</types1:GUID>
       <types1:DisplayName>ImportGuideWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-01-31T11:39:17.486Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-01-31T11:44:13.56Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
