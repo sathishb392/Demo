@@ -1,0 +1,77 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>RmnBtBghuImXyco-gt-3973-2022-02-08T09:39:36.94Z::po.xml</types1:EntryId>
+      <types1:Name>ImportPOAndVerifyGit</types1:Name>
+      <types1:MimeType>application/xml+processobject</types1:MimeType>
+      <types1:Description>This is used by automation</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>vdrelpod1</types1:CreatedBy>
+      <types1:CreationDate>2022-02-08T09:39:37Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                        displayName="ImportPOAndVerifyGit"
+                        isByCopy="true"
+                        name="ImportPOAndVerifyGit">
+            <description>This is used by automation</description>
+            <tags/>
+            <detail>
+               <field label="a"
+                      name="a"
+                      nullable="true"
+                      required="false"
+                      type="string"/>
+               <field label="b"
+                      name="b"
+                      nullable="true"
+                      required="false"
+                      type="boolean"/>
+               <field label="c"
+                      name="c"
+                      nullable="true"
+                      required="false"
+                      type="datetime"/>
+               <field label="d"
+                      name="d"
+                      nullable="true"
+                      required="false"
+                      type="objectlist">
+                  <options>
+                     <option name="referenceTo">$po:$any</option>
+                     <option name="relationshipName">Child</option>
+                  </options>
+               </field>
+               <field label="e"
+                      name="e"
+                      nullable="true"
+                      required="false"
+                      type="multipicklist">
+                  <options>
+                     <option name="values">[{"value":"1","label":"1"},{"value":"2","label":"2"},{"value":"3","label":"3"}]</option>
+                  </options>
+               </field>
+               <field label="f"
+                      name="f"
+                      nullable="true"
+                      required="false"
+                      type="reference">
+                  <options>
+                     <option name="referenceTo">$po:$any</option>
+                     <option name="relationshipName">Child</option>
+                  </options>
+               </field>
+            </detail>
+         </processObject>
+      </types1:Entry>
+      <types1:GUID>iNVue112ukUlpYa0y50ls2</types1:GUID>
+      <types1:DisplayName>ImportPOAndVerifyGit</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2022-02-08T09:40:05.258Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
