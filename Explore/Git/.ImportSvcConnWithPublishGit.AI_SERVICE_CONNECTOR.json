@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "4w2007LZ0FxbETRwZknRsa",
+    "name" : "ImportSvcConnWithPublishGit",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bciZBpDUQbgdwUi-gt-64813-2022-02-18T00:27:29.019Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "this is Service Connector",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

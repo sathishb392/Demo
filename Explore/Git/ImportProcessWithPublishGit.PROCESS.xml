@@ -1,0 +1,68 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>f6NFuxTtlI20hEL-gt-64829-2022-02-18T00:27:29.096Z::pd.xml</types1:EntryId>
+      <types1:Name>ImportProcessWithPublishGit</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>auto_runs_user_pod1</types1:CreatedBy>
+      <types1:CreationDate>2022-02-18T00:27:29Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="ImportProcessWithPublishGit"
+                  name="ImportProcessWithPublishGit"
+                  overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <output>
+               <field description="" name="untitled1" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field description="" name="untitled2" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="normal">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="ktlcg333" targetId="ktlcg332"/>
+               </start>
+               <assignment id="ktlcg332">
+                  <title>Assignment to untitled2, untitled1</title>
+                  <operation source="constant" to="temp.untitled2">temp</operation>
+                  <operation source="field" to="output.untitled1">temp.untitled2</operation>
+                  <link id="ktlcg334" targetId="c"/>
+               </assignment>
+               <end id="c"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>13J9SN2IOiUfxDTp4Xs3g7</types1:GUID>
+      <types1:DisplayName>ImportProcessWithPublishGit</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2022-02-18T00:27:57.315Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
