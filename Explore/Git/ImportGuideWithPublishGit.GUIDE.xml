@@ -12,7 +12,8 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>autouser_pod1</types1:CreatedBy>
       <types1:CreationDate>2022-05-18T10:30:29Z</types1:CreationDate>
-      <types1:ModifiedBy/>
+      <types1:ModifiedBy>autouser_pod1</types1:ModifiedBy>
+      <types1:ModificationDate>2022-05-18T10:31:16Z</types1:ModificationDate>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -72,5 +73,5 @@
       <types1:GUID>8Z7v32jK44WcuNw8nkwoCy</types1:GUID>
       <types1:DisplayName>ImportGuideWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-05-18T10:30:56.829Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-05-18T10:34:02.748Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
