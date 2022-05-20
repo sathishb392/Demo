@@ -1,19 +1,19 @@
 {
   "objectInfo" : {
-    "id" : "58wJygCJjsnh42omM7JWWy",
-    "name" : "ImportGuideWithPublishGit",
-    "type" : "GUIDE",
+    "id" : "8iTVH3071G2ioM9tOeujyA",
+    "name" : "ImportPOAndVerifyGit",
+    "type" : "PROCESS_OBJECT",
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "UTTpOzEkhK6LlRk-gt-75352-2022-05-20T07:50:17.46Z::gt.xml"
+        "repoHandle" : "x7bcoq3xgjATO9p-gt-75344-2022-05-20T07:50:17.386Z::po.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "This is used by automation",
         "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }

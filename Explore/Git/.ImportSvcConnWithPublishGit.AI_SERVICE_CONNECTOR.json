@@ -1,19 +1,19 @@
 {
   "objectInfo" : {
-    "id" : "58wJygCJjsnh42omM7JWWy",
-    "name" : "ImportGuideWithPublishGit",
-    "type" : "GUIDE",
+    "id" : "arrmKPCoaIpbh0HuA7bbih",
+    "name" : "ImportSvcConnWithPublishGit",
+    "type" : "AI_SERVICE_CONNECTOR",
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "UTTpOzEkhK6LlRk-gt-75352-2022-05-20T07:50:17.46Z::gt.xml"
+        "repoHandle" : "rY6tMFyglsO7RY6-gt-75336-2022-05-20T07:50:17.279Z::svc.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "this is Service Connector",
         "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
