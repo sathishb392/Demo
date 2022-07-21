@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "7MUmigdtm7gbB0x2KeBiUh",
+    "name" : "ProcessCAI29661",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "FiciT6sFsdsFsds-gt-63021-2022-07-21T07:31:19.511Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "gfTPsm6S6QEd5xZaFCfKKI",
+    "name" : "PaginationOdataMysqlCAI29661",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jtmuOSSHCwkNmum-gt-38659-2022-07-21T07:31:19.152Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Pramod_CheckOutTest"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "4JhU1AP05h0kMatGF0cnKh",
+    "name" : "Pramod_CheckOutTest",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "used to test bulk undo checkout",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
