@@ -12,8 +12,12 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>autouser_pod1</types1:CreatedBy>
       <types1:CreationDate>2022-08-16T15:24:27Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:ModifiedBy>autouser_pod1</types1:ModifiedBy>
+      <types1:ModificationDate>2022-08-16T15:25:13Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>autouser_pod1</types1:PublishedBy>
+      <types1:PublicationDate>2022-08-16T15:27:44Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connection/zImportConnWithPublishGit/zImportConnWithPublishGit.conn.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
@@ -38,5 +42,5 @@
       <types1:GUID>dfA5TZMIlIhjLiqT5qUisa</types1:GUID>
       <types1:DisplayName>zImportConnWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-08-16T15:24:54.45Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-08-16T15:31:04.978Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
