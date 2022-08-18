@@ -3,6 +3,7 @@
    <types1:Item>
       <types1:EntryId>JT76i3zymbduaa-gt-469020-2022-08-16T15:24:26.572Z::svc.xml</types1:EntryId>
       <types1:Name>ImportSvcConnWithPublishGit</types1:Name>
+      <types1:ParentFlowIds>YaaaabcmnBtBghu-gt-464-2022-08-18T03:07:08.186Z::conn.xml</types1:ParentFlowIds>
       <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
       <types1:Description>this is Service Connector</types1:Description>
       <types1:AppliesTo/>
@@ -13,8 +14,8 @@
       <types1:CreatedBy>autouser_pod1</types1:CreatedBy>
       <types1:CreationDate>2022-08-16T15:24:27Z</types1:CreationDate>
       <types1:ModifiedBy>autouser_pod1</types1:ModifiedBy>
-      <types1:ModificationDate>2022-08-16T15:25:12Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:ModificationDate>2022-08-18T03:07:07Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
       <types1:PublishedBy>autouser_pod1</types1:PublishedBy>
       <types1:PublicationDate>2022-08-16T15:25:22Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/rt.connector/ImportSvcConnWithPublishGit/ImportSvcConnWithPublishGit_svcDef.xml</types1:PublishedContributionId>
@@ -80,5 +81,5 @@
       <types1:GUID>bZkO63xJnSxbwXucP5iwk5</types1:GUID>
       <types1:DisplayName>ImportSvcConnWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-08-16T15:31:36.961Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-08-18T03:07:47.363Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
