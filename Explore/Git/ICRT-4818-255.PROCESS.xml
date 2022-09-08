@@ -1,0 +1,93 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>soq3xgjATO9pH8s-gt-20277-2022-09-06T13:08:12.303Z::pd.xml</types1:EntryId>
+      <types1:Name>ICRT-4818-255-2</types1:Name>
+      <types1:ParentFlowIds>QbgdwUiQLnzYLnz-gt-37562-2022-09-06T13:08:45.685Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>rel_new</types1:CreatedBy>
+      <types1:CreationDate>2022-09-06T13:08:12Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>rel_new</types1:PublishedBy>
+      <types1:PublicationDate>2022-09-06T13:27:19Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.ICRT-4818-255-2/ICRT-4818-255-2.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="ICRT-4818-255"
+                  name="ICRT-4818-255-2">
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 8</generator>
+            <input>
+               <parameter name="input 1" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="input 2" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field name="output 1" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="output 2" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field name="temp" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="none">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="link1" targetId="c"/>
+               </start>
+               <assignment id="c">
+                  <title>Assignment step</title>
+                  <operation source="formula" to="temp.temp">
+                     <expression language="XQuery">math:sqrt(100)</expression>
+                  </operation>
+                  <operation source="field" to="input.input 1">temp.temp</operation>
+                  <operation source="formula" to="output.output 1">
+                     <expression language="XQuery">util:base64Encode($input.input2)</expression>
+                  </operation>
+                  <operation source="field" to="output.output 2">input.input 1</operation>
+                  <operation source="constant" to="input.input 2">100</operation>
+                  <link id="link2" targetId="d"/>
+               </assignment>
+               <end id="d"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>k8CvbWUmvm5dXlEeLeOqQz</types1:GUID>
+      <types1:DisplayName>ICRT-4818-255</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2022-09-08T05:27:49.877Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

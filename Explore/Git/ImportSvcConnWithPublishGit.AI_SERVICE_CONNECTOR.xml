@@ -13,11 +13,8 @@
       <types1:CreatedBy>rel_new</types1:CreatedBy>
       <types1:CreationDate>2022-09-04T08:45:44Z</types1:CreationDate>
       <types1:ModifiedBy>rel_new</types1:ModifiedBy>
-      <types1:ModificationDate>2022-09-04T08:46:31Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>rel_new</types1:PublishedBy>
-      <types1:PublicationDate>2022-09-04T08:46:48Z</types1:PublicationDate>
-      <types1:PublishedContributionId>project:/rt.connector/ImportSvcConnWithPublishGit/ImportSvcConnWithPublishGit_svcDef.xml</types1:PublishedContributionId>
+      <types1:ModificationDate>2022-09-08T05:27:10Z</types1:ModificationDate>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
@@ -80,5 +77,5 @@
       <types1:GUID>4N8RBo3P7hpfSXQtz1hYYa</types1:GUID>
       <types1:DisplayName>ImportSvcConnWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-09-04T08:52:09.566Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-09-08T05:27:50.546Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

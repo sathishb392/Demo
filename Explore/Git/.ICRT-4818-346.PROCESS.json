@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "livC9miupOlbTd765iJumi",
+    "name" : "ICRT-4818-346",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cicjumf6S3wOLIF-gt-20165-2022-09-06T13:08:00.37Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

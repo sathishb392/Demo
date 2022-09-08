@@ -1,0 +1,331 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>JxZmtK9hCHbf2XZ-gt-37552-2022-09-06T13:08:45.577Z::pd.xml</types1:EntryId>
+      <types1:Name>ICRT-4818-18-2</types1:Name>
+      <types1:ParentFlowIds>4pciZBpDUQbgdwU-gt-42442-2022-09-06T13:08:48.95Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>rel_new</types1:CreatedBy>
+      <types1:CreationDate>2022-09-06T13:08:46Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>rel_new</types1:PublishedBy>
+      <types1:PublicationDate>2022-09-06T13:27:19Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.ICRT-4818-18-2/ICRT-4818-18-2.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="ICRT-4818-18"
+                  name="ICRT-4818-18-2">
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="input 1" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="input 2" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field description="" name="output 1" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="output 2" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field description="" name="temp" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="none">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="link1" targetId="c"/>
+               </start>
+               <assignment id="c">
+                  <title>Assignment step</title>
+                  <operation source="formula" to="temp.temp">
+                     <expression language="XQuery">math:sqrt(100)</expression>
+                  </operation>
+                  <operation source="field" to="input.input 1">temp.temp</operation>
+                  <operation source="formula" to="output.output 1">
+                     <expression language="XQuery">util:base64Encode($input.input2)</expression>
+                  </operation>
+                  <operation source="field" to="output.output 2">input.input 1</operation>
+                  <operation source="constant" to="input.input 2">100</operation>
+                  <link id="jwz3372v" targetId="jwz3372u"/>
+               </assignment>
+               <milestone id="jwz3372u">
+                  <title>ICRT-4818-42</title>
+                  <link id="jwz33730" targetId="jwz3372z"/>
+               </milestone>
+               <container id="jwz3372z" type="parallel">
+                  <title>Parallel Paths 1</title>
+                  <flow id="jwz33733">
+                     <subflow id="jwz3375g">
+                        <title>ICRT-4818-42</title>
+                        <subflowGUID>gVM85bTXFcmbgZHNaw5zoJ</subflowGUID>
+                        <subflowPath>ICRT-4818-42-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz33734" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz33736">
+                     <subflow id="jwz3376d">
+                        <title>ICRT-4818-420</title>
+                        <subflowGUID>cSX3cUpRzKhjlu4nD9NHQY</subflowGUID>
+                        <subflowPath>ICRT-4818-420-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz33737" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3373b">
+                     <subflow id="jwz3377i">
+                        <title>ICRT-4818-421</title>
+                        <subflowGUID>2Se7dpt14YTeTEFQPsoJeJ</subflowGUID>
+                        <subflowPath>ICRT-4818-421-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3373c" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3373h">
+                     <subflow id="jwz3378v">
+                        <title>ICRT-4818-423</title>
+                        <subflowGUID>26SIGzmsGKvdsGOXae65QF</subflowGUID>
+                        <subflowPath>ICRT-4818-423-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3373i" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3373o">
+                     <subflow id="jwz337ag">
+                        <title>ICRT-4818-424</title>
+                        <subflowGUID>23JdiL8Ie0yluqrdSRlHsi</subflowGUID>
+                        <subflowPath>ICRT-4818-424-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3373p" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3373w">
+                     <subflow id="jwz337c9">
+                        <title>ICRT-4818-425</title>
+                        <subflowGUID>18N6FOHFyC3lfrXEI9hZAJ</subflowGUID>
+                        <subflowPath>ICRT-4818-425-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3373x" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz33745">
+                     <subflow id="jwz337ea">
+                        <title>ICRT-4818-426</title>
+                        <subflowGUID>jYw53DbCH4jfjA9Z7GdCwZ</subflowGUID>
+                        <subflowPath>ICRT-4818-426-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz33746" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3374f">
+                     <subflow id="jwz337gj">
+                        <title>ICRT-4818-427</title>
+                        <subflowGUID>gyUTOHoXwELcMtQEWFa7oc</subflowGUID>
+                        <subflowPath>ICRT-4818-427-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3374g" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz3374q">
+                     <subflow id="jwz337j0">
+                        <title>ICRT-4818-428</title>
+                        <subflowGUID>8IXGRU8HYY5gy4C2BdZp4g</subflowGUID>
+                        <subflowPath>ICRT-4818-428-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz3374r" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <flow id="jwz33752">
+                     <subflow id="jwz337lp">
+                        <title>ICRT-4818-429</title>
+                        <subflowGUID>aQFt9dkUEERiOnTjr8vxgp</subflowGUID>
+                        <subflowPath>ICRT-4818-429-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef>
+                           <field name="output 1" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                           <field name="output 2" type="string">
+                              <options>
+                                 <option name="required">false</option>
+                              </options>
+                           </field>
+                        </outputDef>
+                     </subflow>
+                     <link id="jwz33753" targetId="jwz3372z" type="containerLink"/>
+                  </flow>
+                  <link id="jwz33732" targetId="jwz33733" type="containerLink"/>
+                  <link id="jwz33735" targetId="jwz33736" type="containerLink"/>
+                  <link id="jwz3373a" targetId="jwz3373b" type="containerLink"/>
+                  <link id="jwz3373g" targetId="jwz3373h" type="containerLink"/>
+                  <link id="jwz3373n" targetId="jwz3373o" type="containerLink"/>
+                  <link id="jwz3373v" targetId="jwz3373w" type="containerLink"/>
+                  <link id="jwz33744" targetId="jwz33745" type="containerLink"/>
+                  <link id="jwz3374e" targetId="jwz3374f" type="containerLink"/>
+                  <link id="jwz3374p" targetId="jwz3374q" type="containerLink"/>
+                  <link id="jwz33751" targetId="jwz33752" type="containerLink"/>
+                  <link id="jwz33731" targetId="d"/>
+               </container>
+               <end id="d"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>jcFHU1zrhY6iNtZqCE810S</types1:GUID>
+      <types1:DisplayName>ICRT-4818-18</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2022-09-08T05:27:52.431Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

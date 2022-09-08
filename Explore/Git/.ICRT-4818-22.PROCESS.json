@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "2Ihpo8ef6wkevVLGcPB6iO",
+    "name" : "ICRT-4818-22",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "E3C7snSDg8SOlA1-gt-42356-2022-09-06T13:08:40.498Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
