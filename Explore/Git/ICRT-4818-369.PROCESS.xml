@@ -14,10 +14,10 @@
       <types1:CreatedBy>rel_new</types1:CreatedBy>
       <types1:CreationDate>2022-09-06T13:08:08Z</types1:CreationDate>
       <types1:ModifiedBy>rel_new</types1:ModifiedBy>
-      <types1:ModificationDate>2022-10-16T23:18:45Z</types1:ModificationDate>
-      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
+      <types1:ModificationDate>2022-10-26T14:17:46Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
       <types1:PublishedBy>rel_new</types1:PublishedBy>
-      <types1:PublicationDate>2022-09-21T19:55:39Z</types1:PublicationDate>
+      <types1:PublicationDate>2022-10-26T14:34:24Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.ICRT-4818-369-2/ICRT-4818-369-2.pd.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -90,5 +90,5 @@
       <types1:GUID>7SSlytgExW0kRgDOvQ4a8w</types1:GUID>
       <types1:DisplayName>ICRT-4818-369</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-10-26T14:12:18.912Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-10-27T01:24:27.696Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
