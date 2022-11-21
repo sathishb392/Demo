@@ -12,8 +12,12 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>mrel_pod1_common</types1:CreatedBy>
       <types1:CreationDate>2022-11-21T21:32:54Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:ModifiedBy>mrel_pod1_common</types1:ModifiedBy>
+      <types1:ModificationDate>2022-11-21T21:33:42Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>mrel_pod1_common</types1:PublishedBy>
+      <types1:PublicationDate>2022-11-21T21:33:55Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.ImportProcessWithPublishGit/ImportProcessWithPublishGit.pd.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -64,5 +68,5 @@
       <types1:GUID>asbaChi67X7baoKxaw6YOk</types1:GUID>
       <types1:DisplayName>ImportProcessWithPublishGit</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-11-21T21:33:21.355Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-11-21T21:45:28.45Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
