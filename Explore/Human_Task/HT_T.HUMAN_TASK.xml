@@ -1,0 +1,50 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>abbf5ZK0CYybdsM-gt-55369-2023-01-23T06:30:06.013Z::ht.xml</types1:EntryId>
+      <types1:Name>HT_T</types1:Name>
+      <types1:MimeType>application/xml+humantask</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>nrGW@infa.com</types1:CreatedBy>
+      <types1:CreationDate>2023-01-23T06:30:06Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <HumanTask xmlns="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskAsset.xsd"
+                    xmlns:core="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                    xmlns:htc="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskCommon.xsd"
+                    displayName="HT_T"
+                    name="HT_T">
+            <description/>
+            <priority source="constant">1</priority>
+            <skippable source="constant">false</skippable>
+            <origin source="constant">CAI</origin>
+            <interface>
+               <input>
+                  <field label="asdasd\" name="dasdasd" required="false" type="string"/>
+               </input>
+            </interface>
+            <presentation>
+               <displayName source="constant">Untitled</displayName>
+               <subject source="constant">UntitledSUB</subject>
+            </presentation>
+            <assignments>
+               <administrators xmlns="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskCommon.xsd"
+                               canOverwrite="false"
+                               source="constant">
+                  <user>nrGW@infa.com</user>
+               </administrators>
+            </assignments>
+         </HumanTask>
+      </types1:Entry>
+      <types1:GUID>9yWuQ0iXWI3iXiTIfAnv4N</types1:GUID>
+      <types1:DisplayName>HT_T</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-02-02T13:02:06.954Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
