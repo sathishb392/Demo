@@ -1,0 +1,62 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>FTeBPWrRfRW8UBM-gt-121757-2023-01-23T06:30:30.507Z::pd.xml</types1:EntryId>
+      <types1:Name>Process1-6</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>nrGW@infa.com</types1:CreatedBy>
+      <types1:CreationDate>2023-01-23T06:30:31Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="Process1"
+                  name="Process1-6"
+                  overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="none">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="ld8firjt" targetId="ld8firjs"/>
+               </start>
+               <humanTask id="ld8firjs">
+                  <title>HT_T</title>
+                  <subflowGUID>9yWuQ0iXWI3iXiTIfAnv4N</subflowGUID>
+                  <subflowPath>HT_T</subflowPath>
+                  <peopleActivityName>HT_T</peopleActivityName>
+                  <asset>
+                     <GUID>9yWuQ0iXWI3iXiTIfAnv4N</GUID>
+                     <taskName>HT_T</taskName>
+                  </asset>
+                  <input/>
+                  <outputDef/>
+                  <config>
+                     <disableOutcomeLinksGeneration>true</disableOutcomeLinksGeneration>
+                  </config>
+                  <link id="ld8firju" targetId="c"/>
+               </humanTask>
+               <end id="c"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>cmX5gcLmX68lpbcvnHhCql</types1:GUID>
+      <types1:DisplayName>Process1</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-02-02T13:02:55.96Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
