@@ -1,0 +1,85 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>8vHWOMzeHbcjqbd-gt-177282-2023-01-23T10:28:20.966Z::ht.xml</types1:EntryId>
+      <types1:Name>Sanity</types1:Name>
+      <types1:MimeType>application/xml+humantask</types1:MimeType>
+      <types1:Description>HumanTask </types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>nrGW@infa.com</types1:CreatedBy>
+      <types1:CreationDate>2023-01-23T10:28:21Z</types1:CreationDate>
+      <types1:ModifiedBy>nrGW@infa.com</types1:ModifiedBy>
+      <types1:ModificationDate>2023-01-24T11:40:07Z</types1:ModificationDate>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <HumanTask xmlns="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskAsset.xsd"
+                    xmlns:core="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                    xmlns:htc="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskCommon.xsd"
+                    displayName="Sanity"
+                    name="Sanity">
+            <description>HumanTask </description>
+            <priority source="constant">6</priority>
+            <skippable source="constant">true</skippable>
+            <origin source="constant"/>
+            <interface>
+               <input>
+                  <field name="In" required="false" type="string">
+                     <options>
+                        <option xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                                name="defaultValue">wdef</option>
+                     </options>
+                  </field>
+                  <field name="Integer" required="true" type="int"/>
+               </input>
+               <output>
+                  <field name="Out" required="false" type="string"/>
+                  <field name="Out1" required="false" type="boolean"/>
+                  <field name="Out2" required="false" type="date"/>
+               </output>
+               <outcomes>
+                  <outcome>
+                     <id>outcomes-1674469680494</id>
+                     <value>Yes</value>
+                     <label/>
+                  </outcome>
+                  <outcome>
+                     <id>outcomes-1674469684550</id>
+                     <value>No</value>
+                     <label/>
+                  </outcome>
+                  <outcome>
+                     <id>outcomes-1674469688654</id>
+                     <value>Label</value>
+                     <label>labeltest</label>
+                  </outcome>
+               </outcomes>
+            </interface>
+            <presentation>
+               <displayName source="constant">HTSanity</displayName>
+               <subject source="constant">NRSanity</subject>
+            </presentation>
+            <assignments>
+               <potentialOwners xmlns="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskCommon.xsd"
+                                canOverwrite="false">
+                  <include source="constant">
+                     <user>nrGW@infa.com</user>
+                  </include>
+               </potentialOwners>
+               <administrators xmlns="http://informatica.com/HumanTask/2022/12/schema/model/humanTaskCommon.xsd"
+                               canOverwrite="false"
+                               source="constant">
+                  <user>nrGW@infa.com</user>
+               </administrators>
+            </assignments>
+         </HumanTask>
+      </types1:Entry>
+      <types1:GUID>dR7l98ZiBecb8KY1uOwag0</types1:GUID>
+      <types1:DisplayName>Sanity</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-02-06T07:57:34.917Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

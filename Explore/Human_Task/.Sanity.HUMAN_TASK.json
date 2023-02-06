@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "dR7l98ZiBecb8KY1uOwag0",
+    "name" : "Sanity",
+    "type" : "HUMAN_TASK",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8vHWOMzeHbcjqbd-gt-177282-2023-01-23T10:28:20.966Z::ht.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "HumanTask ",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "8QPNzzK9GWJiun70qdc3sm",
+    "name" : "ProcessCancel",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dsreK8ZAZf5kck8-gt-11335-2023-01-25T15:02:16.055Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

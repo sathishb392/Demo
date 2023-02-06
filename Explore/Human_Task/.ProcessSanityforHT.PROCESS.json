@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "6ihJ8P9liRDeBx3edcU4cr",
+    "name" : "ProcessSanityforHT",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "FNlv58pIO3M4WwO-gt-131774-2023-01-23T10:31:46.506Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "dR7l98ZiBecb8KY1uOwag0",
+    "name" : "Sanity",
+    "type" : "HUMAN_TASK",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8vHWOMzeHbcjqbd-gt-177282-2023-01-23T10:28:20.966Z::ht.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "HumanTask ",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Human_Task"
+  } ]
+}
