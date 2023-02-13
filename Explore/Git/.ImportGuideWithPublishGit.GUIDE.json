@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "aYZVXYSbqDkl40sEg6YIUh",
+    "name" : "ImportGuideWithPublishGit",
+    "type" : "GUIDE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "rINciZBpDUQbgdw-gt-13533-2023-02-13T13:50:09.127Z::gt.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
