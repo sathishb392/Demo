@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "dte2NIifxGekJq4V8gHY05",
+    "name" : "GitProcess1",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "vEMMP5gjn9OQcjo-gt-809-2023-02-14T05:52:14.353Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
